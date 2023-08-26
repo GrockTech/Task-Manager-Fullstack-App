@@ -1,0 +1,60 @@
+.dashbarod-Container{
+background-color: teal; 
+padding: 20px;
+
+}
+.topWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+}
+.link{
+    /* width: 300px; */
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    cursor: pointer;
+}
+.link >span:hover{
+    color: orange;
+}
+h2{
+    font-weight: bold;
+    color:#fff; 
+}
+#signout{
+    width: 100px;
+    height: 30px;
+    color: teal;
+    background-color: #fff;
+    border: none;
+    
+    /* display: flex; */
+    gap: 10px;
+    /* color: teal; */
+    cursor: pointer;
+
+}
+.signOut{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+@media (max-width: 640px) {
+    .signOut{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        gap: 10px;
+        align-items: center;
+    }
+    .signOut{
+           font-size: 12px; 
+    }
+   
+}

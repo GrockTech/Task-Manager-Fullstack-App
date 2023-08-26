@@ -1,0 +1,35 @@
+.formContainer{
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 30px;
+align-items: center;
+justify-content: center;
+
+
+}
+h1{
+    color: teal;
+}
+
+.inputform{
+    display: flex;
+   gap: 30px;
+
+
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+.loginLink{
+   font-weight: bold;
+   margin-top: 10px;
+}
